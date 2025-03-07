@@ -4,7 +4,7 @@ const Validate = {
    * 手机号校验
    */
   mobileCheck: (value) => {
-    console.log('checkValue',value)
+    console.log('checkValue123',value)
    return /^[1][3,4,5,7,8][0-9]{9}$/.test(value)
   },
 
